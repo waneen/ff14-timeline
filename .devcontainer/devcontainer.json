@@ -1,0 +1,21 @@
+{
+	"name": "React + TypeScript + Vite + SWC",
+	"dockerComposeFile": [
+		"../compose.yml"
+	],
+	"service": "ff14-timeline",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"ms-vscode.vscode-typescript-next",
+				"steoates.autoimport",
+				"wix.vscode-import-cost",
+				"ecmel.vscode-html-css",
+				"arcanis.vscode-zipfs"
+			]
+		}
+	},
+	"workspaceFolder": "/app"
+}
