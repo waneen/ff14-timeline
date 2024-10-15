@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://waneen.github.io/ff14-timeline/",
   "dependencies": {
     "html-to-image": "^1.11.11",
     "marked": "^14.1.2",
