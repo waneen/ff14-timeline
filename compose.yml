@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  ff14-timeline:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+    tty: true
