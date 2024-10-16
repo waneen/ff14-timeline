@@ -1,7 +1,12 @@
 import React from 'react';
+import AppLayout from './components/layout/AppLayout';
 
 const App: React.FC = () => {
-  return <h1>Hello world!</h1>;
+  return (
+    <>
+      <AppLayout />
+    </>
+  );
 };
 
 export default App;
